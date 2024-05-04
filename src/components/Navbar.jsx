@@ -9,7 +9,7 @@ import { FaBell } from "react-icons/fa";
 
 export default function Navbar() {
   return (
-    <div className = " h-16 px-14 flex items-center justify-between bg-black sticky  opacity-95">
+    <div className = " h-16 px-14 flex items-center justify-between bg-[#000000]">
         <div className = "flex gap-8 items-center">
             <button className = ""> 
              <IoMdMenu  className = " text-3xl"/ >
@@ -29,7 +29,7 @@ export default function Navbar() {
                 <div>
                     <div className = "flex ">
                         <input type="text" placeholder = "Search" className = " text-2xl rounded-l-xl pl-2 border-2 border-solid border-white bg-black"/>
-                        <div className = "bg-black rounded-r-xl text-2xl border-2 border-solid border-white px-2 py-2">
+                        <div className = "bg-[#000000] rounded-r-xl text-2xl border-2 border-solid border-white px-2 py-2">
                         <IoSearchSharp className = " size-7 "/>
                         </div>
                     </div>
